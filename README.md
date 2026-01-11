@@ -1,4 +1,4 @@
-# Azulito - Premium Creative Portfolio Template
+# Azulito - Creative Portfolio Template
 
 [![Live Preview](https://img.shields.io/badge/Live_Preview-View_Demo-2563EB?style=for-the-badge&logo=github)](https://heyadjoining.github.io/azulito)
 
@@ -69,7 +69,23 @@ To change the default theme, modify the `:root` variables:
 -   **Loader**: `src/components/loader.js`
 -   **Theme Switcher**: Remove `<script src="components/theme-switcher.js"></script>` from `index.html` to disable.
 
-## 📦 Project Structure
+## � Documentation
+
+Detailed guides to help you manage and deploy your portfolio:
+
+### 🚀 Getting Started
+-   [Quick Start Guide](QUICKSTART.md) - Set up the project in minutes.
+-   [Deployment Checklist](DEPLOYMENT_CHECKLIST.md) - Essential steps before going live.
+
+### 📝 Content Management
+-   [Projects Guide](src/PROJECTS_GUIDE.md) - How to add and edit portfolio projects.
+-   [Resources Guide](src/RESOURCES_GUIDE.md) - Managing the resources/downloads section.
+-   [Testimonials Guide](src/TESTIMONIALS_GUIDE.md) - Updating client testimonials.
+
+### ⚙️ Integrations
+-   [Calendly Setup](src/CALENDLY_SETUP.md) - Configuring the booking integration.
+
+## �📦 Project Structure
 
 ```
 src/
