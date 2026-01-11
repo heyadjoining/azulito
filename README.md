@@ -24,7 +24,7 @@ Azulito is a vibe-coded, high-performance, single-page creative portfolio templa
 
 1.  **Clone & Install**:
     ```bash
-    git clone <repo-url>
+    git clone https://github.com/heyadjoining/azulito.git
     cd azulito
     npm install
     ```
