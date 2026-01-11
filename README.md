@@ -1,6 +1,8 @@
 # Azulito - Premium Creative Portfolio Template
 
-> Brought to you by Adj + Claude + Gemini | Jan 2026
+[![Live Preview](https://img.shields.io/badge/Live_Preview-View_Demo-2563EB?style=for-the-badge&logo=github)](https://your-username.github.io/azulito)
+
+> **Note**: Replace `your-username` in the link above with your GitHub username after deploying.
 
 Azulito is a high-performance, single-page creative portfolio template featuring fluid animations, modular components, and a custom build system. Designed for creative agencies, freelancers, and design studios.
 
@@ -38,7 +40,11 @@ Azulito is a high-performance, single-page creative portfolio template featuring
     ```bash
     npm run build
     ```
-    Generates an optimized `dist/` folder ready for deployment (Netlify, Vercel, etc.).
+    Generates an optimized `dist/` folder ready for deployment.
+    
+4.  **Deploy to GitHub Pages**:
+    -   Push the contents of the `dist/` folder to a `gh-pages` branch, OR
+    -   Configure GitHub Pages in your repository settings to serve from the `dist` folder (if you commit it) or use a workflow to build and deploy.
 
 ## 🎨 Customization
 
