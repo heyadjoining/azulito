@@ -136,3 +136,53 @@
 .theme-switcher.open .theme-label {
     opacity: 0;
 }
+
+/* Divider */
+.theme-divider {
+    width: 1px;
+    height: 16px;
+    background: var(--border-light);
+    margin: 0 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.theme-switcher.open .theme-divider {
+    opacity: 1;
+}
+
+/* Get Template Button */
+.get-template-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    overflow: hidden;
+}
+
+.theme-switcher.open .get-template-btn {
+    opacity: 1;
+    pointer-events: auto;
+    width: auto;
+    overflow: visible;
+}
+
+.get-template-btn:hover {
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+}
+
+.get-template-btn svg {
+    width: 16px;
+    height: 16px;
+}
