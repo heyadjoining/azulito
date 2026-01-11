@@ -1,5 +1,7 @@
 # Azulito - Creative Portfolio Template
 
+![Azulito Preview](src/img/preview.png)
+
 [![Live Preview](https://img.shields.io/badge/Live_Preview-View_Demo-2563EB?style=for-the-badge&logo=github)](https://heyadjoining.github.io/azulito)
 
 

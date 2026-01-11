@@ -389,6 +389,26 @@ function optimizeSVGs() {
   });
 }
 
+// Copy static images (like preview.png, favicon)
+function copyStaticImages() {
+  console.log('🖼️  Copying static images...');
+
+  const imgDir = path.join(srcDir, 'img');
+  const distImgDir = path.join(distDir, 'img');
+
+  if (!fs.existsSync(imgDir)) return;
+
+  // distImgDir might already exist from optimizeSVGs, but ensure it does
+  fs.mkdirSync(distImgDir, { recursive: true });
+
+  const files = fs.readdirSync(imgDir).filter(f => !f.endsWith('.svg'));
+
+  files.forEach(file => {
+    fs.copyFileSync(path.join(imgDir, file), path.join(distImgDir, file));
+    console.log(`  ↳ ${file}`);
+  });
+}
+
 // Update JSON files to reference WebP images
 function updateImageReferences() {
   console.log('📝 Updating image references (PNG → WebP)...');
@@ -518,6 +538,7 @@ async function build() {
     await buildHTML();
     await optimizeImages();
     optimizeSVGs();
+    copyStaticImages();
     copyAssets();
     updateImageReferences();
     generateReport();
