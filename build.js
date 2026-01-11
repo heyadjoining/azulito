@@ -456,6 +456,10 @@ function copyAssets() {
       path.join(distDir, '_redirects')
     );
   }
+
+  // Create .nojekyll to bypass Jekyll processing
+  console.log('  ↳ .nojekyll');
+  fs.writeFileSync(path.join(distDir, '.nojekyll'), '');
 }
 
 // Generate build report
