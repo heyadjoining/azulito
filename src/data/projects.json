@@ -1,0 +1,236 @@
+[
+    {
+        "id": "placeholder1",
+        "order": 1,
+        "title": "Lumina Analytics",
+        "overview": "A comprehensive design system and brand identity project focused on creating a modern, scalable visual language.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Adobe Illustrator",
+        "services": "Branding, UI/UX Design, Design Systems",
+        "cover": "data/projects/placeholder1/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder1/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder1/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder1/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder2",
+        "order": 2,
+        "title": "Aethel & Co.",
+        "overview": "Building a compelling visual identity and user experience for an innovative platform connecting professionals.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Adobe Creative Suite",
+        "services": "UI/UX Design, Branding, Prototyping",
+        "cover": "data/projects/placeholder2/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder2/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder2/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder2/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder3",
+        "order": 3,
+        "title": "Finova Banking",
+        "overview": "Crafting a bold digital presence with cutting-edge design and seamless user interactions for a next-generation platform.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "3 months",
+        "stack": "Figma, Framer, Adobe After Effects",
+        "services": "UI/UX Design, Motion Graphics, Web Design",
+        "cover": "data/projects/placeholder3/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder3/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder3/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder3/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder4",
+        "order": 4,
+        "title": "FlowState SaaS",
+        "overview": "Designing an elegant and intuitive interface for a premium lifestyle brand, focusing on luxury and user delight.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Sketch, Principle",
+        "services": "UI/UX Design, Branding, Prototyping",
+        "cover": "data/projects/placeholder4/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder4/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder4/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder4/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder5",
+        "order": 5,
+        "title": "Blue & Beige Co.",
+        "overview": "Creating a streamlined, user-friendly experience for a modern delivery platform with focus on speed and efficiency.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Adobe XD",
+        "services": "UI/UX Design, Mobile App Design, Branding",
+        "cover": "data/projects/placeholder5/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder5/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder5/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder5/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder6",
+        "order": 6,
+        "title": "Cerulean Café",
+        "overview": "Professional-grade platform design with advanced features and sophisticated interface for power users.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "3 months",
+        "stack": "Figma, Framer, React",
+        "services": "UI/UX Design, Web Design, Design Systems",
+        "cover": "data/projects/placeholder6/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder6/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder6/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder6/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder7",
+        "order": 7,
+        "title": "Aura Athletics",
+        "overview": "Film festival branding and digital experience design, capturing the essence of cinema and celebration.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Adobe Illustrator, Adobe After Effects",
+        "services": "Branding, Motion Graphics, Web Design, Print Design",
+        "cover": "data/projects/placeholder7/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder7/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder7/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder7/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder8",
+        "order": 8,
+        "title": "Nexus Analytics",
+        "overview": "Digital music platform design with focus on modern user experience and innovative audio interactions.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "2 months",
+        "stack": "Figma, Adobe XD",
+        "services": "UI/UX Design, Branding, Mobile App Design",
+        "cover": "data/projects/placeholder8/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder8/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder8/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder8/image3.png"
+            }
+        ]
+    },
+    {
+        "id": "placeholder9",
+        "order": 9,
+        "title": "Apex Brandbook",
+        "overview": "Educational platform design focused on creating engaging learning experiences and intuitive knowledge discovery.",
+        "client": "Your Client",
+        "location": "Your Location",
+        "duration": "3 months",
+        "stack": "Figma, Adobe Creative Suite",
+        "services": "UI/UX Design, Web Design, Design Systems",
+        "cover": "data/projects/placeholder9/cover.png",
+        "media": [
+            {
+                "type": "image",
+                "src": "data/projects/placeholder9/image1.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder9/image2.png"
+            },
+            {
+                "type": "image",
+                "src": "data/projects/placeholder9/image3.png"
+            }
+        ]
+    }
+]

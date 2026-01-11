@@ -1,0 +1,50 @@
+[
+    {
+        "name": "John Doe",
+        "title": "450k on X",
+        "text": "He took our vague idea, cleaned it up, and turned it something people actually wanted to use.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=JD"
+    },
+    {
+        "name": "Alice Smith",
+        "title": "Design Lead",
+        "text": "Working with this team was transformative for our product. Their attention to detail is unmatched.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=AS"
+    },
+    {
+        "name": "Michael Johnson",
+        "title": "CEO at TechCo",
+        "text": "A true professional who understands both design and business needs. Highly recommend.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=MJ"
+    },
+    {
+        "name": "Sarah Kim",
+        "title": "Product Manager",
+        "text": "Incredible work ethic and creative vision. Delivered beyond our expectations every single time.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=SK"
+    },
+    {
+        "name": "Robert Park",
+        "title": "Founder at StartupX",
+        "text": "His designs helped us secure our Series A funding. The investor deck was absolutely stunning.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=RP"
+    },
+    {
+        "name": "Lisa Wang",
+        "title": "Head of Design at Innovate",
+        "text": "One of the most talented designers I've worked with. Brings both creativity and strategic thinking.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=LW"
+    },
+    {
+        "name": "David Martinez",
+        "title": "CTO at CloudTech",
+        "text": "Perfect balance between aesthetics and functionality. User engagement increased by 200%.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=DM"
+    },
+    {
+        "name": "Emma Chen",
+        "title": "VP of Product",
+        "text": "Their ability to translate complex requirements into simple, elegant designs is remarkable.",
+        "avatar": "https://placehold.co/48x48/666666/ffffff?text=EC"
+    }
+]

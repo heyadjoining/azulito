@@ -1,0 +1,138 @@
+/* Template Color Switcher Styles */
+.theme-switcher {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: var(--white);
+    padding: 8px;
+    border-radius: 999px;
+    border: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    gap: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    /* Start collapsed width */
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+}
+
+.theme-switcher.open {
+    padding: 8px 12px;
+    gap: 12px;
+    width: auto;
+    overflow: visible;
+}
+
+.theme-switcher:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Toggle Button (Cog / Close) */
+.theme-toggle {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: transform 0.3s ease, color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.theme-switcher.open .theme-toggle {
+    transform: rotate(90deg);
+    color: var(--text-primary);
+}
+
+.theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2;
+}
+
+/* Color Buttons Container */
+.theme-options {
+    display: flex;
+    gap: 8px;
+    width: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.theme-switcher.open .theme-options {
+    width: auto;
+    opacity: 1;
+    pointer-events: auto;
+    overflow: visible;
+}
+
+.theme-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    position: relative;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.theme-btn:hover {
+    transform: scale(1.1);
+}
+
+.theme-btn.active {
+    border-color: var(--white);
+    box-shadow: 0 0 0 2px var(--blue);
+}
+
+/* Colors */
+.theme-btn[data-color="blue"] {
+    background-color: #2563EB;
+}
+
+.theme-btn[data-color="red"] {
+    background-color: #DC2626;
+}
+
+.theme-btn[data-color="green"] {
+    background-color: #059669;
+}
+
+/* Tooltip */
+.theme-label {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--white);
+    color: var(--text-primary);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-light);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: opacity 0.2s;
+}
+
+.theme-switcher:hover .theme-label {
+    opacity: 1;
+}
+
+/* Hide label when open to avoid clutter */
+.theme-switcher.open .theme-label {
+    opacity: 0;
+}

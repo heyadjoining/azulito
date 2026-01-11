@@ -1,0 +1,88 @@
+{
+    "featured": {
+        "id": "ultimate-brand-system",
+        "title": "Ultimate Brand System",
+        "description": "A comprehensive Figma template with 500+ components, color systems, typography scales, and brand guidelines. Everything you need to build consistent, scalable brand identities.",
+        "tags": ["Design System", "Branding"],
+        "price": 0,
+        "url": "https://gumroad.com",
+        "learnMoreUrl": "#",
+        "image": "data/resources/featured-brand-system.png"
+    },
+    "freebies": [
+        {
+            "id": "logo-grid-template",
+            "title": "Logo Grid Template",
+            "description": "Professional grid system for logo construction and brand guidelines",
+            "tags": ["Illustrator"],
+            "price": 0,
+            "url": "https://gumroad.com",
+            "icon": "grid"
+        },
+        {
+            "id": "color-palette-generator",
+            "title": "Color Palette Generator",
+            "description": "50 hand-crafted color palettes for modern brand identities",
+            "tags": ["Figma"],
+            "price": 0,
+            "url": "https://gumroad.com",
+            "icon": "color"
+        },
+        {
+            "id": "wireframe-kit",
+            "title": "Wireframe Kit",
+            "description": "100+ low-fidelity wireframe components for rapid prototyping",
+            "tags": ["Figma"],
+            "price": 0,
+            "url": "https://gumroad.com",
+            "icon": "wireframe"
+        },
+        {
+            "id": "social-media-templates",
+            "title": "Social Media Templates",
+            "description": "20 Instagram and Twitter post templates ready to customize",
+            "tags": ["Figma"],
+            "price": 0,
+            "url": "https://gumroad.com",
+            "icon": "social"
+        }
+    ],
+    "premium": [
+        {
+            "id": "complete-design-system",
+            "title": "Complete Design System",
+            "description": "Enterprise-ready design system with components, tokens, and documentation",
+            "tags": ["Figma"],
+            "price": 79,
+            "url": "https://gumroad.com",
+            "icon": "shield"
+        },
+        {
+            "id": "brand-strategy-toolkit",
+            "title": "Brand Strategy Toolkit",
+            "description": "Templates, worksheets, and frameworks for brand strategy projects",
+            "tags": ["Notion"],
+            "price": 39,
+            "url": "https://gumroad.com",
+            "icon": "toolkit"
+        },
+        {
+            "id": "ui-component-library",
+            "title": "UI Component Library",
+            "description": "1000+ production-ready UI components with variants and documentation",
+            "tags": ["Figma"],
+            "price": 99,
+            "url": "https://gumroad.com",
+            "icon": "components"
+        },
+        {
+            "id": "animation-library",
+            "title": "Animation Library",
+            "description": "Premium motion presets and micro-interactions for web and mobile",
+            "tags": ["After Effects"],
+            "price": 59,
+            "url": "https://gumroad.com",
+            "icon": "animation"
+        }
+    ]
+}
