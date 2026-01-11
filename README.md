@@ -5,7 +5,7 @@
 [![Live Preview](https://img.shields.io/badge/Live_Preview-View_Demo-2563EB?style=for-the-badge&logo=github)](https://heyadjoining.github.io/azulito)
 
 
-Azulito is a vibe-coded, high-performance, single-page creative portfolio template featuring fluid animations, modular components, and a custom build system. Designed for creative agencies, freelancers, and design studios.
+Azulito is a high-performance, single-page creative portfolio template featuring fluid animations, modular components, and a custom build system. Designed for creative agencies, freelancers, and design studios.
 
 ## 🚀 Features
 
